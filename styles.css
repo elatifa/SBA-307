@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 00;
+  padding: 00;
+  background-color: #ea8383;
+
+}
+
+header {
+  background-color: #4b0606;
+  color: #fffdfd;
+  padding: 15px;
+  text-align: right;
+}
+
+p {
+
+  padding: 00px;
+  font: size 14px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f4c8c8;
+  padding: 20px;
+  font: size 14px;
+  text-align: center;
+}
+
+.anass {
+  width: 500px;
+  height: 500px;
+}
+
+nav ul {
+  list-style:none;
+  margin:0;
+  padding: 0;
+  font-size: 12
+}
+
+
+
+.box {
+  height: 400px;
+  width: 400px;
+  border: 5px solid black;
+  justify-content: center;
+}
+
+#Bedroom {
+  background-color: #8ecae6;
+}
+
+#Kitchen {
+  background-color: #f4a261;
+}
+
+#Bathroom {
+  background-color: #e0e1dd;
+}
+
+#Dressing {
+  background-color: #fdfcdc
+}
+
+#Garden {
+  background-color: #31572c;
+}
+
+#Balcony {
+  background-color: #f4e285;
+}
+
+#Livingroom {
+  background-color: #24d9b2;
+}
+
+#Diningroom {
+  background-color: #78e038;
+
+}
+
+#Decoration {
+  background-color: lightgrey;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  border: .3px solid;
+  width: 99px;
+  height: 99px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.section {
+  display: flex;
+}
